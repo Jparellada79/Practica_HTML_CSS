@@ -9,8 +9,6 @@ function cambiaportada(id) {
     const m = src.split("/")
     const s = parseInt(m.pop().substring(1, 2));
     let k = 0;
-    console.log(src);
-
     if (s == 3) {
         k = 0;
     } else {
