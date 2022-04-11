@@ -11,30 +11,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@200;400;500;700&family=Special+Elite&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css" />
     <script src="index.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
     <header class="container">
         <div class="foto"> <img class="ibañez" src="img/Ibáñez_autocaricatura.jpg"></div>
         <div class="cabecera">
-            <h1>El grán Francisco Ibañez</h1>
+            <h1>El gran Francisco Ibañez</h1>
         </div>
 
     </header>
     <nav class="menu">
         <ul>
+            <li><a href="index.html">Inicio</a></li>
             <li><a href="biografia.html">Biografia</a></li>
-            <li><a href="personajes.html">Personajes</a></li>
+            <li class="active"><a href="personajes.html">Personajes</a></li>
             <li><a href="enlace.html">Enlaces</a></li>
         </ul>
     </nav>
     <main>
         <div class="container">
             <h2>Personajes de Ibañez</h2>
-            <P>A lo largo de los años Ibañez ha dibujado muchísimos personajes en sus comics. Vamos a conocer a los más famosos. Seguro que alguno te ha hecho pasar momentos divertidos de niño.</P>
+            <p>A lo largo de los años Ibañez ha dibujado muchísimos personajes en sus comics. Vamos a mis 4 favoritos. Seguro que alguno te ha hecho pasar momentos divertidos de niño.</p>
         </div>
         <section class="personajes ">
-            <div class="personaje">
+            <div class="personaje" data-aos="flip-right">
                 <div class="container "><img id="fotom" src="img/portadas/m0.jpg" alt="Mortadelo y Filemón " class="img-index "></div>
                 <div class="container ">
                     <h3>Mortadelo y Filemón</h3>
@@ -42,7 +44,7 @@
                     <a href="mortadelo.html" class="leermas ">Saber más sobre Mortadelo y Filemón</a>
                 </div>
             </div>
-            <div class="personaje ">
+            <div class="personaje " data-aos="flip-right">
                 <div class="container "><img id="fotosa" src="img/portadas/s0.jpg" alt="El botones Sacarino " class="img-index "></div>
                 <div class="container ">
                     <h3>El botones Sacarino</h3>
@@ -50,7 +52,7 @@
                     <a href="sacarino.html" class="leermas ">Saber más sobre el botones Sacarino</a>
                 </div>
             </div>
-            <div class="personaje ">
+            <div class="personaje " data-aos="flip-right">
                 <div class="container "><img id="fotor" src="img/portadas/r0.jpg " alt="Rompetechos " class="img-index "></div>
                 <div class="container ">
                     <h3>Rompetechos</h3>
@@ -58,7 +60,7 @@
                     <a href="rompetechos.html" class="leermas ">Saber más sobre Rompetechos</a>
                 </div>
             </div>
-            <div class="personaje ">
+            <div class="personaje " data-aos="flip-right">
                 <div class="container "><img id="fotop" src="img/portadas/p0.jpg" alt="Pepe Gotera y Otilio " class="img-index "></div>
                 <div class="container ">
                     <h3>Pepe Gotera y Otilio</h3>
@@ -74,6 +76,10 @@
             <p>Actividad realizada por Javier Parellada González para la asignatura HTML y CSS.Primer semestre curso 2020-2021</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
