@@ -175,7 +175,7 @@
      
      svg {
          animation: mortadelo;
-         animation-duration: 3s;
+         animation-duration: 20s;
          animation-iteration-count: infinite;
          width: 100%;
      }
@@ -292,6 +292,13 @@
          padding: 0px;
          display: flex;
          list-style: none;
+     }
+     
+     .menufooter {
+         list-style: none;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-around;
      }
      
      @media (min-width: 992px) {

@@ -1,5 +1,5 @@
 const fotom = document.getElementById("fotom");
-const fotos = document.getElementById("fotosa");
+const fotosa = document.getElementById("fotosa");
 const fotor = document.getElementById("fotor");
 const fotop = document.getElementById("fotop");
 
@@ -22,8 +22,8 @@ function cambiaportada(id) {
 fotom.addEventListener('click', () => {
     cambiaportada(fotom)
 })
-fotos.addEventListener('click', () => {
-    cambiaportada(fotos)
+fotosa.addEventListener('click', () => {
+    cambiaportada(fotosa)
 })
 
 fotor.addEventListener('click', () => {
