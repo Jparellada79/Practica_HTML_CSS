@@ -58,7 +58,7 @@
          padding: 15px;
      }
      
-     @media (min-width: 992px) {
+     @media (min-width: 1024px) {
          h1 {
              font-size: 6rem;
          }
@@ -112,7 +112,7 @@
          padding-bottom: 20px;
      }
      
-     @media (min-width: 992px) {
+     @media (min-width: 1024px) {
          .titulopagina {
              padding: 0;
              margin: 0;
@@ -152,7 +152,7 @@
          flex: 1;
      }
      
-     @media (min-width: 992px) {
+     @media (min-width: 1024px) {
          header {
              display: flex;
          }
@@ -223,7 +223,7 @@
          padding-bottom: 30px;
      }
      
-     @media (min-width: 992px) {
+     @media (min-width: 1024px) {
          svg {
              animation-duration: 6s;
          }
@@ -301,11 +301,15 @@
      .menufooter li {
          text-align: center;
          font-family: 'Special Elite', cursive;
-         font-weight: bolder;
-         line-height: 20px;
      }
      
-     @media (min-width: 992px) {
+     .menufooter li a {
+         font-weight: 600;
+         line-height: 40px;
+         font-size: 1.5rem;
+     }
+     
+     @media (min-width: 1024px) {
          nav {
              width: 50%;
              margin: auto;
@@ -318,7 +322,7 @@
              text-align: center;
              margin-right: 30px;
              font-family: 'Special Elite', cursive;
-             font-weight: bolder;
+             font-weight: 600;
              padding: 5px;
          }
          nav ul li:last-child {
@@ -327,6 +331,14 @@
          nav ul li a,
          .menufooter li a {
              font-size: 1.5rem;
+         }
+         .menufooter {
+             margin: auto;
+             width: 50%;
+             flex-direction: row;
+         }
+         .menufooter li {
+             box-shadow: 0 0 0 2px black;
          }
      }
      /****************************
@@ -361,7 +373,7 @@
          margin-right: auto;
      }
      
-     @media (min-width: 992px) {
+     @media (min-width: 1024px) {
          .personajes {
              display: grid;
              grid-template-columns: 1fr;
@@ -445,7 +457,14 @@
          border-style: solid;
      }
      
-     @media (min-width: 992px) {
+     @media (min-width: 768px) and (max-width: 1024px) {
+         .fotosPersonajes1 figure {
+             margin: auto;
+             width: 60%;
+         }
+     }
+     
+     @media (min-width: 1024px) {
          iframe {
              width: 560px;
              height: 315px;
@@ -513,16 +532,6 @@
              grid-row-start: 3;
          }
      }
-     
-     @media(max-width: 992px) and (orientation:landscape) {
-         .fotosp {
-             height: 260px;
-             width: 300px;
-         }
-         figure p {
-             width: 300px;
-         }
-     }
      /****************************
        Contenido BIOGRAFIA
      *****************************/
@@ -585,7 +594,7 @@
          }
      }
      
-     @media (min-width: 992px) {
+     @media (min-width: 1024px) {
          .fotosb {
              height: 350px;
              width: 600px;
@@ -632,10 +641,10 @@
      }
      
      .enlaces {
-         height: 67vh;
+         height: 57vh;
      }
      
-     @media (min-width: 992px) {
+     @media (min-width: 1024px) {
          .ListaEnlaces>li {
              text-align: center;
          }
