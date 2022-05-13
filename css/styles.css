@@ -555,7 +555,7 @@
      .fotosb1 {
          margin: auto;
          display: block;
-         animation: bio 15s infinite;
+         animation: bio 5s infinite;
      }
      
      @keyframes bio {
