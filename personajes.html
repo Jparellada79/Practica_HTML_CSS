@@ -15,7 +15,12 @@
 
 <body>
     <header class="container">
-        <div class="foto"> <img src="img/logo.png" alt="Logo de la web"></div>
+        <div class="foto">
+            <picture>
+                <source srcset="img/logo.png?as=webp" type="image/webp" />
+                <img src="img/logo.png" alt="Logo de la web">
+            </picture>
+        </div>
         <div class="cabecera">
             <h1>El gran Francisco Ibañez</h1>
         </div>
@@ -100,7 +105,10 @@
             </ul>
         </div>
         <div class="container ">
-            <img src="img/logo.png" loading="lazy" alt="Logo de la web">
+            <picture>
+                <source srcset="img/logo.png?as=webp" type="image/webp" />
+                <img src="img/logo.png" loading="lazy" alt="Logo de la web">
+            </picture>
             <p>Actividad realizada por Javier Parellada González para la asignatura HTML y CSS.Segundo semestre curso 2021-2022</p>
         </div>
     </footer>

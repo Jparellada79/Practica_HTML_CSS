@@ -14,7 +14,12 @@
 
 <body>
     <header class="container">
-        <div class="foto"> <img src="img/logo.png" alt="Logo de la web"></div>
+        <div class="foto">
+            <picture>
+                <source srcset="img/logo.png?as=webp" type="image/webp" />
+                <img src="img/logo.png" alt="Logo de la web">
+            </picture>
+        </div>
         <div class="cabecera">
             <h1>El gran Francisco Ibañez</h1>
         </div>
@@ -37,8 +42,8 @@
                     <h2>Historia</h2>
                     <div class="container">
                         <picture>
-                            <source media="(orientation: landscape)" srcset="img/portadas/r0_1.jpg">
-                            <source media="(orientation: portrait)" srcset="img/portadas/r0.jpg">
+                            <source media="(orientation: landscape)" srcset="img/portadas/r0_1.jpg?as=webp" type="image/webp">
+                            <source media="(orientation: portrait)" srcset="img/portadas/r0.jpg?as=webp" type="image/webp">
                             <img src="img/portadas/s0.jpg" loading="lazy" alt="Portada Rompetechos" class="portadaPer ">
                         </picture>
                     </div>
@@ -54,7 +59,10 @@
                 <div class="container">
                     <figure>
                         <p>Rompetechos</p>
-                        <img class="fotosp" loading="lazy" src="img/rompetechos2.jpg " alt="Imagen de Rompetechos">
+                        <picture>
+                            <source srcset="img/rompetechos2.jpg?as=webp" type="image/webp">
+                            <img class="fotosp" loading="lazy" src="img/rompetechos2.jpg " alt="Imagen de Rompetechos">
+                        </picture>
                         <figcaption>
                             <a href="https://mortadelo.fandom.com/es/wiki/Rompetechos">Visita la Página wiki de Rompetechos</a>
                         </figcaption>
@@ -105,7 +113,10 @@
             </ul>
         </div>
         <div class="container ">
-            <img src="img/logo.png" alt="Logo de la web">
+            <picture>
+                <source srcset="img/logo.png?as=webp" type="image/webp" />
+                <img src="img/logo.png" alt="Logo de la web" loading="lazy">
+            </picture>
             <p>Actividad realizada por Javier Parellada González para la asignatura HTML y CSS.Segundo semestre curso 2021-2022</p>
         </div>
     </footer>

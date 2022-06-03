@@ -15,7 +15,12 @@
 
 <body>
     <header class="container">
-        <div class="foto"> <img src="img/logo.png" alt="Logo de la web"></div>
+        <div class="foto">
+            <picture>
+                <source srcset="img/logo.png?as=webp" type="image/webp" />
+                <img src="img/logo.png" alt="Logo de la web">
+            </picture>
+        </div>
         <div class="cabecera">
             <h1>El gran Francisco Ibañez</h1>
         </div>
@@ -38,8 +43,8 @@
                     <h2>Historia</h2>
                     <div class="container">
                         <picture>
-                            <source media="(orientation: landscape)" srcset="img/portadas/p0_1.jpg">
-                            <source media="(orientation: portrait)" srcset="img/portadas/p0.jpg">
+                            <source media="(orientation: landscape)" srcset="img/portadas/p0_1.jpg?as=webp" type="image/webp">
+                            <source media="(orientation: portrait)" srcset="img/portadas/p0.jpg?as=webp" type="image/webp">
                             <img src="img/portadas/p0.jpg" loading="lazy" alt="Portada de Pepe y Otilio" class="portadaPer ">
                         </picture>
                     </div>
@@ -56,7 +61,10 @@
                 <div class="container">
                     <figure>
                         <p>Pepe Gotera</p>
-                        <img class="fotosp" src="img/pepe_gotera.jpg " loading="lazy" alt="Imagen de Pepe Gotera">
+                        <picture>
+                            <source srcset="img/pepe_gotera.jpg?as=webp" type="image/webp">
+                            <img class="fotosp" src="img/pepe_gotera.jpg " loading="lazy" alt="Imagen de Pepe Gotera">
+                        </picture>
                         <figcaption>
                             <a href="https://mortadelo.fandom.com/es/wiki/Pepe_Gotera_y_Otilio">Visita la Página wiki de pepe Gotera</a>
                         </figcaption>
@@ -66,7 +74,10 @@
                 <div class="container">
                     <figure>
                         <p>Otilio</p>
-                        <img class="fotosp" src="img/otilio.jpg " loading="lazy" alt="Imagen de Otilio">
+                        <picture>
+                            <source srcset="img/otilio.jpg?as=webp" type="image/webp">
+                            <img class="fotosp" src="img/otilio.jpg " loading="lazy" alt="Imagen de Otilio">
+                        </picture>
                         <figcaption>
                             <a href="https://mortadelo.fandom.com/es/wiki/Pepe_Gotera_y_Otilio">Visita la Página wiki de Otilio</a>
                         </figcaption>
@@ -88,7 +99,10 @@
             </ul>
         </div>
         <div class="container ">
-            <img src="img/logo.png" alt="Logo de la web">
+            <picture>
+                <source srcset="img/logo.png?as=webp" type="image/webp" />
+                <img src="img/logo.png" alt="Logo de la web" loading="lazy">
+            </picture>
             <p>Actividad realizada por Javier Parellada González para la asignatura HTML y CSS.Segundo semestre curso 2021-2022</p>
         </div>
     </footer>
